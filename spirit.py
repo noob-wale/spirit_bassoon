@@ -2,6 +2,7 @@ import time
 import sys
 
 def approval():
+	global user_name
 	user_approval = input('Do you wish to continue?(y/n): ')
 	if user_approval == 'y':
 		user_name = input('Please enter your name: ')
